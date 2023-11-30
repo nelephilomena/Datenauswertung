@@ -106,27 +106,27 @@ saveas(gcf,'Phi_D_E','svg')
 % Zahl in dem Dateinamen mit der Fischnummer verglichen und wenn sie gleich
 % wird, wird die Position der Datei abgespeichert in ind_plot
 
-% rmax = max(max(r_vec)); 
-% N = 1;
-% 
-% % Fisch 11 ohne Orientierungspraefernz
-% fig_num = 4;
-% fischnummer = 11; 
-% ind_plot_vec = find_ind_files(filenames,fischnummer);
-% plot_daten(N,fig_num,col1,col2,rmax,phi_vec,r_vec,ind_plot_vec,T_Dodos_mean{fischnummer,3})
-% 
-% % Speichern der Abbildung
-% saveas(gcf,'Trajekt_11_E','svg')
-% 
-% % Fisch mit Orientierungspraefernz
-% fischnummer = 13; 
-% ind_plot_vec = find_ind_files(filenames,fischnummer);
-% fig_num = 5;  
-% plot_daten(N,fig_num,col1,col2,rmax,phi_vec,r_vec,ind_plot_vec,T_Dodos_mean{fischnummer,3})
-% 
-% % Speichern der Abbildung
-% saveas(gcf,'Trajekt_13_E','svg')
-% % -> Berechnung der x- und y-Koordinaten in Winkel phi stimmt nicht mit
+rmax = max(max(r_vec)); 
+N = 1;
+
+% Fisch 11 ohne Orientierungspraefernz
+fig_num = 4;
+fischnummer = 11; 
+ind_plot_vec = find_ind_files(filenames,fischnummer);
+plot_daten(N,fig_num,col1,col2,rmax,phi_vec,r_vec,ind_plot_vec,T_Dodos_mean{fischnummer,3})
+
+% Speichern der Abbildung
+saveas(gcf,'Trajekt_11_E','svg')
+
+% Fisch mit Orientierungspraefernz
+fischnummer = 13; 
+ind_plot_vec = find_ind_files(filenames,fischnummer);
+fig_num = 5;  
+plot_daten(N,fig_num,col1,col2,rmax,phi_vec,r_vec,ind_plot_vec,T_Dodos_mean{fischnummer,3})
+
+% Speichern der Abbildung
+saveas(gcf,'Trajekt_13_E','svg')
+% -> Berechnung der x- und y-Koordinaten in Winkel phi stimmt nicht mit
 % der Tabelle der phi-Winkel ueberein
 
 %% Daten der 4-er Gruppenn
@@ -144,7 +144,7 @@ nummern_gruppen_mit = [1,2,3,11,14,15];
 
 %% Plots von den Trajektorien der Fischgruppen mit leader
 rmax = 0.5;
-L = 14.5; F
+L = 14.5; 
 N = 4;
 
 ind_gruppe = ind_gruppe_mit_leader(5,1):ind_gruppe_mit_leader(5,2);
