@@ -13,7 +13,7 @@ CircStat2012a
 - circ_r                 -> Durchschnittliche Resultantlänge
 - circ_rtest             -> Rayleigh Test
 
-- find_ind_files         -> Finden der Indexe für die Datein von allen Versuchen mit dem Fisch
+- find_ind_files         -> Finden der Indexe für die Datein von allen Versuchen mit diesem Fisch
 - find_ind_group         -> Finden der Indexe für die Datein von allen Versuchen mit der Fischgruppe
 - plot_daten             -> Plot der Schwimmbewegung der Fischen über die Zeit
 - read_tab_group         -> Einlesen der Tabellen mit den Positionen (x,y) der Fischgruppen
@@ -21,7 +21,7 @@ CircStat2012a
 - read_tab_single_xy     -> Einlesen der Tabellen mit den Positionen (x,y) der einzelnen Fischen
 
 ## Skript
-main_datenauswertung
+main_datenauswertung     -> Auswertung der Daten der Versuche mit einzelnen Fischen und Fischgruppen
 
 ## Daten
 ### Dodos
