@@ -11,8 +11,8 @@ CircStat2012a
 - circ_rad2ang           -> Winkel von Bogenmaß in Winkelmaß
 - circ_mean              -> Zirkulärer Mittelwert in Winkelmaß
 - circ_r                 -> Durchschnittliche Resultantlänge
-- circ_rtest             -> Rayleigh Test</p>
-<p>
+- circ_rtest             -> Rayleigh Test
+Eigene Funktionen
 - find_ind_files         -> Finden der Indexe für die Datein von allen Versuchen mit diesem Fisch
 - find_ind_group         -> Finden der Indexe für die Datein von allen Versuchen mit der Fischgruppe
 - plot_daten             -> Plot der Schwimmbewegung der Fischen über die Zeit
