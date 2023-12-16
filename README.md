@@ -1,9 +1,7 @@
 # Datenauswertung
 
 Das Respository Datenauswertung enthält den Datensatz und die Funktionen, um die Daten auszuwerten 
-und zu analysieren. Mit den Daten der einzelnen getesten Fische wurde für jeden Fisch über alle 
-Beobachtungen ein Rayleigh Test der Positionswinkel durchgeführt, um anhand der Größe des p-Wertes den jeweiligen einzelnen 
-Fischen eine Orientierungspräferenz zuzuordnen. 
+und zu analysieren. Der Datensatz besteht aus Positionsdaten von Versuchen mit Fischen, die in der Nähe der One Tree Islands gesammelt wurden. Diese Fische wurden in kreisrunde Becken untersucht. Alle 30 Sekunden wurde deren Positionsdaten aufgenommen und in Tabellen festgehalten.
 
 ## Funktionen
 CircStat2012a
@@ -12,6 +10,8 @@ CircStat2012a
 - circ_mean              -> Zirkulärer Mittelwert in Winkelmaß
 - circ_r                 -> Durchschnittliche Resultantlänge
 - circ_rtest             -> Rayleigh Test </p>
+P. Berens, CircStat: A Matlab Toolbox for Circular Statistics, Journal of Statistical Software, Volume 31, Issue 10, 2009
+http://www.jstatsoft.org/v31/i10
 
 Eigene Funktionen
 - find_ind_files         -> Finden der Indexe für die Datein von allen Versuchen mit diesem Fisch
