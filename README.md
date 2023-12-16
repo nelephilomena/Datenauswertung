@@ -41,6 +41,11 @@ main_datenauswertung     -> Auswertung der Daten der Versuche mit einzelnen Fisc
      aufgrund der Zeit zwischen den Beobachtungszeitpunkten
   - Jeweils die ersten x- und y-Werte geben das Zentrum des Beckens an
 
+##
+Nele Schuff
+18.12.2023
+
+
 
 
 
